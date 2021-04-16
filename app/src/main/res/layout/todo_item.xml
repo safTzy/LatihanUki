@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:id="@+id/todoitem"
+    android:layout_marginBottom="5dp"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/titleTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mancing"
+            android:textSize="18sp"
+            android:textColor="#090909"/>
+        <TextView
+            android:id="@+id/desTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mancing perkara....."
+            android:textSize="12sp"
+            android:textColor="#454545"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/dateTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03-10-2020"
+            android:textSize="12sp"
+            android:textColor="#D50B0B"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>
